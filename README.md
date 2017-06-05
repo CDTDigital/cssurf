@@ -139,3 +139,19 @@ benefit from a tiny container wrapper that ensures the shadow shows up:
 Lots, but not much documentation yet. Also, this is just a candidate, so
 subject to change.
 
+# Installation
+
+The stylsheets are meant as a baseline with you and your folks modifying
+and adding to the style guide. Therefore, you want to install the
+stylsheets somewhere that you can change and work with.
+
+There is a built in `bin` file for you to enjoy:
+
+    install-cssurf path/where/i-want/my-scss
+
+or
+
+    node_modules/.bin/install-cssurf path/where/i-want/my-scss
+
+This will also install a webpack configuration file in that directory.
+
