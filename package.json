@@ -5,7 +5,9 @@
   "main": "",
   "scripts": {
     "start": "webpack css.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Kane Baccigalupi",
   "license": "MIT",
@@ -22,9 +24,11 @@
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
-    "webpack": "^2.6.0"
+    "webpack": "^2.6.0",
+    "snyk": "^1.83.0"
   },
   "bin": {
     "install-cssurf": "./bin/install.js"
-  }
+  },
+  "snyk": true
 }
