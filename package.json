@@ -17,14 +17,14 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.1",
     "compass-mixins": "^0.12.10",
-    "css-loader": "^0.28.4",
+    "css-loader": "^2.0.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.1",
     "sass-loader": "^6.0.5",
-    "style-loader": "^0.18.1",
-    "webpack": "^2.6.0",
+    "style-loader": "^0.20.0",
+    "webpack": "^3.11.0",
     "snyk": "^1.83.0"
   },
   "bin": {
